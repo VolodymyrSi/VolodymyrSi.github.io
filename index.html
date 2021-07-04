@@ -1,9 +1,70 @@
-<html>
- 
-<body>
-  <h1>VOLODYMYR</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Semantic reference</title>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>HTML Elements Reference</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Document metadata</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Tag</td>
+                            <td>Description</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tags">&lt;base&gt;</td>
+                            <td>specifies the base URL to use for all relative URLs in a document. There can be only one such element in a document.</td>
+                        </tr>
+                        <tr>
+                            <td class="tags">&lt;head&gt;</td>
+                            <td class="even">contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tags">&lt;link&gt;</td>
+                            <td>specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things</td>
+                        </tr>
+                        <tr>
+                            <td class="tags">&lt;meta&gt;</td>
+                            <td class="even">represents Metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title.</td>
+                        </tr>
+                        <tr>
+                            <td class="tags">&lt;style&gt;</td>
+                            <td> contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing this element.</td>
+                        </tr>
+                        <tr>
+                            <td class="tags">&lt;title&gt;</td>
+                            <td class="even">defines the document's title that is shown in a Browser's title bar or a page's tab. It only contains text; tags within the element are ignored.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <div>
+            <div class="author">
+                <p>Made by Vova</p>
+            </div>
+            <div class="year_footer">
+                <p>2021</p>
+            </div>
+            <div class="project_footer">
+                <p>This is a Codecademy project</p>
+            </div>
+        </div>
+        <img class="footer_pic" src="./resources/cat.png" alt="A cat">
+    </footer>
 </html>
